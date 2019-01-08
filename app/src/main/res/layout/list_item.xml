@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/table_v_divider"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:showDividers="middle|beginning|end">
+
+        <TableRow
+            android:divider="@drawable/table_h_divider"
+            android:showDividers="middle|beginning|end">
+
+            <TextView
+                android:id="@+id/item_tv_serialNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="序号" />
+
+            <TextView
+                android:id="@+id/item_tv_carId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="车号" />
+
+            <TextView
+                android:id="@+id/item_tv_recharge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="充值金额（元）" />
+
+            <TextView
+                android:id="@+id/item_tv_operator"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="操作人" />
+
+            <TextView
+                android:id="@+id/item_tv_rechargeTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="充值时间" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
