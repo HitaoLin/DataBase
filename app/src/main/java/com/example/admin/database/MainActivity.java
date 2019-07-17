@@ -31,6 +31,9 @@ import java.util.Comparator;
 
 import java.util.List;
 
+/**
+ * 测试
+ */
 public class MainActivity extends AppCompatActivity {
 
     //充值金额输入框
